@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Vehicle Scenario Simulation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vehicle Scenario Simulation is a React.js application that allows users to create, manage, and simulate scenarios with multiple vehicles. The application provides an intuitive user interface to design scenarios, manage vehicles, and simulate their movements based on defined parameters.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Create, display, update, and delete scenarios and vehicles.
+- Intuitive UI/UX using React.js framework.
+- Simulate vehicle movements based on direction and speed.
+- Graph container to visualize the scenarios and vehicle positions.
+- Validation checks to ensure proper data input.
+- Data storage using json-server.
+- Deployment on a platform like Vercel or Netlify.
+- Public GitHub repository with code and documentation.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the Vehicle Scenario Simulation application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```shell
+   git clone https://github.com/your-username/vehicle-scenario-simulation.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+   ```shell
+   cd vehicle-scenario-simulation
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the json-server:
 
-### `npm run eject`
+   ```shell
+   json-server --watch db.json --port 8000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. In a new terminal, start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```shell
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Open your browser and visit `http://localhost:3000` to access the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. On the sidebar, select "Create Scenario" to add a new scenario. Enter the scenario name and time.
+2. Once the scenario is created, you can add vehicles to the scenario by selecting "Add Vehicle" and providing the required details such as vehicle name, initial position, speed, and direction.
+3. To simulate the scenario, go to the Home page and select the desired scenario from the dropdown.
+4. Click the "Start Simulation" button to begin the simulation. The vehicles will start moving based on their defined parameters.
+5. If a vehicle goes outside the graph container, it will be automatically hidden.
+6. You can edit or delete scenarios and vehicles using the respective options on the sidebar.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Validation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- When adding a vehicle, the application validates that the positions are within the graph container size. Users are not allowed to add positions greater than the container size.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Vehicle Scenario Simulation application is deployed on [Netlify](https://www.netlify.com/).
 
-### Analyzing the Bundle Size
+You can access the deployed application here: [Vehicle Scenario Simulation](https://vehiclesimulation.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+- React.js
+- HTML
+- CSS
+- JavaScript
+- json-server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## JSON Server Installation
 
-### Advanced Configuration
+To set up the json-server, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Install json-server globally:
 
-### Deployment
+   ```shell
+   npm install -g json-server
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Start the json-server:
 
-### `npm run build` fails to minify
+   ```shell
+   json-server --watch db.json --port 8000
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   This will start the json-server and watch the `db.json` file for changes on port `8000`.
+
+## Contributing
+
+Contributions to the Vehicle Scenario Simulation project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy creating, managing, and simulating vehicle scenarios with the Vehicle Scenario Simulation application!
