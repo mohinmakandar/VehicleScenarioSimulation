@@ -1,0 +1,117 @@
+.add-vehicle-body{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    background-color: #1E1E1E;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.vehicle-add-heading{
+    color: white;
+    margin: 0;   
+    font-weight: 600;
+}
+
+.add-vehicle-heading{
+    color: white;
+    margin:0;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;  
+}
+
+.label-vehicle{
+    display: block;
+}
+
+.add-vehicle-inputs{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    color: white;
+    text-align: left;
+    width: 100%x;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+/* .add-vehicle-inputs div:first-child{
+    padding-right: 3.5rem;
+}
+
+.add-vehicle-inputs div:nth-child(2){
+    padding-left: 3.5rem;
+} */
+
+.add-vehicle-inputs input{
+    background-color: #252526;
+    color:  #b1b1b1;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid#b1b1b1;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    /* width: 28vw; */
+    height: 2rem;
+    font-size: 1rem;
+}
+.add-vehicle-inputs input:focus{
+    border: 1px solid white;
+    outline: none;
+}
+
+.add-vehicle-inputs select{
+    width: 12.5rem;
+    height: 2rem;
+    background-color: #333333;
+    color: #b1b1b1;
+    margin-top: 0.5rem;
+    border: 2px solid #468ba7;
+    border-radius: 3px;
+}
+
+.add-vehicle-inputs select option{
+    width: 12.5rem;
+    height: 2rem;
+    background-color: #333333;
+    color: #b1b1b1;
+    margin-top: 0.5rem;
+    border: 2px solid #468ba7;
+    border-radius: 3px;
+}
+
+.vehicle-action-buttons{
+    margin-top: 2rem;
+}
+
+.vehicle-action-buttons button{
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+}
+
+.vehicle-action-buttons button:nth-child(1){
+    color: white;
+    background-color: #5cb85c;
+}
+
+.vehicle-action-buttons button:nth-child(2){
+    background-color: #e37933;
+    color: white;
+}
+
+.vehicle-action-buttons button:nth-child(3){
+    background-color: #4a9aba;
+    color: white;
+}
+
+
+
+

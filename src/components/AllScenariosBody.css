@@ -1,0 +1,70 @@
+.all-scenarios-body{
+    width: 100%;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    background-color:#1E1E1E;
+    padding-right: 2rem;
+}
+
+.heading-section-all-scenarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-all-scenarios{
+    color:white;
+    font-weight: 600;
+    margin:0;
+}
+
+.buttons-all-scenarios button{
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-right: 1rem;
+    border: none;
+}
+
+
+.buttons-all-scenarios button:nth-child(1){
+    background-color: #4a9aba;
+    color: white;
+}
+.buttons-all-scenarios button:nth-child(2){
+    color: white;
+    background-color: #5cb85c;
+}
+
+
+.buttons-all-scenarios button:nth-child(3){
+    background-color: #e37933;;
+    color: white;
+}
+
+.all-scenarios-table{
+    margin-top:1rem;
+}
+
+.all-scenarios-table table{
+    margin-top: 2rem;
+    border-collapse: collapse;
+    margin-right: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.all-scenarios-table table th{
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.all-scenarios-table table thead{
+    background-color: #333333;
+    border: 1px solid  #333333;
+    color: white;
+}
+
+.all-scenarios-table table tbody tr{
+    background-color: white;
+    border: 1px solid black;
+}

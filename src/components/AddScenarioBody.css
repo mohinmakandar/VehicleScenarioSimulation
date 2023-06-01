@@ -1,0 +1,92 @@
+.add-scenario-body{
+    width: 100%;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    background-color:#1E1E1E;
+}
+
+.scenario-add-heading{
+    color: white;
+    margin: 0;   
+    font-weight: 600;
+}
+
+.add-scenario-heading{
+    color: white;
+    margin:0;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;  
+}
+
+.label-scenario{
+    display: block;
+}
+
+.add-scenario-inputs{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    text-align: left;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 5px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.add-scenario-inputs div:first-child{
+    padding-right: 3.5rem;
+}
+
+.add-scenario-inputs div:nth-child(2){
+    padding-left: 3.5rem;
+}
+
+.add-scenario-inputs input{
+    background-color: #252526;
+    color:  #b1b1b1;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid#b1b1b1;
+    margin-top: 0.5rem;
+    width: 28vw;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+.add-scenario-inputs input:focus{
+    border: 1px solid white;
+    outline: none;
+}
+.scenario-action-buttons{
+    margin-top: 2rem;
+}
+
+.scenario-action-buttons button{
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+}
+
+.scenario-action-buttons button:nth-child(1){
+    color: white;
+    background-color: #5cb85c;
+}
+
+.scenario-action-buttons button:nth-child(2){
+    background-color: #e37933;
+    color: white;
+}
+
+.scenario-action-buttons button:nth-child(3){
+    background-color: #4a9aba;
+    color: white;
+}
+
+
+

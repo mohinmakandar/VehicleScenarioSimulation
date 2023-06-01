@@ -1,0 +1,44 @@
+.home-section{
+    width: 100%;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    background-color:#1E1E1E;
+}
+
+.home-section table{
+    margin-top: 2rem;
+    border-collapse: collapse;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.home-section table th{
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.home-section table thead{
+    background-color: #333333;
+    border: 1px solid  #333333;
+    color: white;
+}
+
+.home-section table tbody tr{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.select-scenarios{
+    color: white;
+    padding: 0.6rem;
+    width: 12rem;
+    background-color: #404040;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.scenario-heading{
+    color: white;
+    margin: 0;
+}

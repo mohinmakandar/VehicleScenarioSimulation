@@ -1,0 +1,63 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "Scenario 1",
+      "time": "4",
+      "numberofvehicles": 0
+    },
+    {
+      "id": 2,
+      "name": "Scenario 2",
+      "time": "3",
+      "numberofvehicles": 0
+    },
+    {
+      "name": "Scenario 3",
+      "time": "5",
+      "id": 3,
+      "numberofvehicles": 0
+    },
+    {
+      "name": "Test Scenario 4",
+      "time": "5",
+      "id": 4,
+      "numberofvehicles": 0
+    },
+    {
+      "name": "Scenario 5",
+      "time": "3",
+      "id": 5,
+      "numberofvehicles": 0
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "scenario": "Scenario 1",
+      "name": "Vehicle 1",
+      "initialPositionX": 100,
+      "initialPositionY": 200,
+      "speed": 50,
+      "direction": "Towards"
+    },
+    {
+      "id": 2,
+      "scenario": "Scenario 2",
+      "name": "Vehicle 2",
+      "initialPositionX": 300,
+      "initialPositionY": 150,
+      "speed": 40,
+      "direction": "Backwards"
+    },
+    {
+      "id": 3,
+      "scenario": "Scenario 3",
+      "name": "Vehicle 3",
+      "initialPositionX": 200,
+      "initialPositionY": 350,
+      "speed": 60,
+      "direction": "Upwards"
+    }
+  ]
+}
